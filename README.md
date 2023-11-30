@@ -14,7 +14,9 @@ The PyEnv-Win Wrapper (PyWrapper) is a Python *and* Perl script designed to simp
 
     Save Time & Effort: Negates the need to open a terminal session and having to manually run Python scripts.
 
-    Beautiful Design: Shows my beautiful banner if run without a script or on any error. Has a Python .ico (in the compiled version).
+    Beautiful Design: Shows my beautiful banner if run without parsing a script or on any error. 
+    
+    Looks Better: All .py files will have a Python .ico now instead of nothing! (If using compiled version)
 
 ### Prerequisites
 
