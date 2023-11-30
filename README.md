@@ -14,16 +14,18 @@ The PyEnv-Win Wrapper (PyWrapper) is a Python *and* Perl script designed to simp
 
     Save Time & Effort: Negates the need to open a terminal session and having to manually run Python scripts.
 
-    Beautiful Design: Shows my beautiful banner if run without a script or on any error. Has a python .ico (in the compiled version).
+    Beautiful Design: Shows my beautiful banner if run without a script or on any error. Has a Python .ico (in the compiled version).
 
 ### Prerequisites
 
     PyEnv-Win: Ensure that PyEnv-Win is installed on your Windows system.
+    Install one or more Python versions!
 
 ## Usage
     1. Use the script as is, compile it yourself or download my compiled executable
     2. Set this program as the default for opening .py files
     3. Double click on any .py script and it will run normally!
+    4. Change version normally by running the pyenv global 0.0.0 command
 
 ## Acknowledgments
 
