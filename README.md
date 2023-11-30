@@ -4,7 +4,7 @@ Version: 1.0.0
 
 ## Overview
 
-The PyEnv-Win Wrapper is a Perl script designed to simplify the management and execution of Python scripts within a PyEnv environment on Windows systems. It serves as a convenient environment variable for running Python files while ensuring they execute in the desired Python environment.
+The PyEnv-Win Wrapper is a Perl script designed to simplify the management and execution of Python scripts within a PyEnv environment on Windows systems. It serves as a convenient environment variable/default application for running Python files while ensuring they execute in the desired Python environment.
 
 ### Features
 
