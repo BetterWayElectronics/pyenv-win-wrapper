@@ -56,6 +56,5 @@ if os.path.exists(pyenv):
 else:
     clear_screen()
     print_banner()
-    print (pyenv)
     print(Fore.RED + "\nPlease Install PyEnv-Win First!\n")
     input("\nPress Enter to Exit... ")
