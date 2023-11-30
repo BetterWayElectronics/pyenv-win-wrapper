@@ -30,10 +30,10 @@ windows_drive = os.environ.get('SystemDrive', 'C:')
 # Get the username
 username = os.environ.get('UserName', '')
 
-# Installed?
+# Path for pyenv
 pyenv = os.path.join(windows_drive + '\\Users\\' + username, '.pyenv\\')
 
-# Check if this is the first run
+# Check if pyenv is exists, then run a script
 if os.path.exists(pyenv):
 
     if script_name and file_to_execute:
@@ -56,5 +56,6 @@ if os.path.exists(pyenv):
 else:
     clear_screen()
     print_banner()
+    print (pyenv)
     print(Fore.RED + "\nPlease Install PyEnv-Win First!\n")
     input("\nPress Enter to Exit... ")
