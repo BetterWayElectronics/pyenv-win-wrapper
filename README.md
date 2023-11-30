@@ -29,6 +29,9 @@ The PyEnv-Win Wrapper (PyWrapper) is a Python *and* Perl script designed to simp
     3. Double click on any .py script and it will run normally!
     4. Change version normally by running the pyenv global 0.0.0 command
 
+## Is there another way of doing this?
+    Probably? I like my way!
+
 ## Acknowledgments
 
     This script was inspired by the PyEnv project.
